@@ -20,6 +20,18 @@ import commentRoutes from './routes/comments';
 
 const app = express();
 
+// CORS Configuration
+const corsOptions = {
+  origin: [
+    'http://localhost:3000',
+    'http://localhost:5173',
+    'https://doterran-frontend.vercel.app'
+  ],
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+};
+
 // Middleware
 app.use(cors());
 app.use(express.json());
