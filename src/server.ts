@@ -7,6 +7,9 @@ console.log('RESEND_API_KEY:', process.env.RESEND_API_KEY ? 'Loaded' : 'NOT LOAD
 console.log('MONGODB_URI:', process.env.MONGODB_URI ? 'Loaded' : 'NOT LOADED');
 console.log('PORT:', process.env.PORT || 5000);
 
+
+console.log('CLOUDINARY_CLOUD_NAME:', process.env.CLOUDINARY_CLOUD_NAME ? 'Loaded' : 'NOT LOADED');
+
 import express from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
