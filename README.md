@@ -3,6 +3,9 @@ Backend API for the Dō Terra, Dō Anima philosophy blog — a Node.js + Express
 https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
 https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
 https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white
+https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white
+https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white
+
 
 ✨ Features
 Feature	Description
